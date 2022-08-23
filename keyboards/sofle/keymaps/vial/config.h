@@ -21,8 +21,14 @@
 #pragma once
 
 // Vial Support
-#define VIAL_KEYBOARD_UID { 0x05, 0xCD, 0x9F, 0x8A, 0xF4, 0xDF, 0xDE, 0xB2 }
+#define VIAL_KEYBOARD_UID { 0xFB, 0xFE, 0x94, 0x59, 0x23, 0x77, 0x59, 0xDB }
 
 // The four corners
-#define VIAL_UNLOCK_COMBO_ROWS { 0, 5, 3, 8 }
-#define VIAL_UNLOCK_COMBO_COLS { 0, 0, 0, 0 }
+#define VIAL_UNLOCK_COMBO_ROWS { 0, 2 }
+#define VIAL_UNLOCK_COMBO_COLS { 0, 0 }
+
+// Additional options
+#define AUTO_SHIFT_MODIFIERS
+#define NO_AUTO_SHIFT_ALPHA
+#define LEADER_PER_KEY_TIMING
+
